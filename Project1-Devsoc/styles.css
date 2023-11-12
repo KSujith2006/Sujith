@@ -1,0 +1,48 @@
+ * {
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    transition-duration: 0.6s;
+    
+ }
+ .it1{
+       background-color: rgb(200, 200, 200);
+       color: rgb(0, 0, 0);
+        align-content: center;
+        align-items: center;
+ }
+ .it{
+    display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto auto auto auto;
+        
+        
+ }
+.it1:hover{
+    background-color: aqua;
+    color: gray;
+}
+body {
+    background: linear-gradient(to bottom,rgba(172, 72, 72, 0.9),orange,yellow,green,blue,indigo,violet);
+}
+.output{
+    grid-column: 1/-1;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.753);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-block: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.before{
+    font-size:30px;
+    color: rgba(184, 184, 184, 0.724);
+}
+.after{
+    font-size:50px;
+    color: rgba(135, 135, 135, 0.655);
+}
