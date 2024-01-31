@@ -1,9 +1,10 @@
 #include <stdio.h>
-#include <math.h>
 
 int main()
 {
-   float y = 2.3434 ;
- printf("y<7");
- return 0;
+  int children, candies;
+  scanf("%d%d",&children,&candies);
+  printf("We can give %d candies to each child\n", candies / children);
+  printf("%d candies are left\n", candies % children);
+  return 0;
 }

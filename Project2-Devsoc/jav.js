@@ -31,7 +31,6 @@ function displayUserInfo(user) {
         <p>Public Repositories: ${user.public_repos}</p>
     `;
     
-    // Show the userInfoDiv
     userInfoDiv.classList.remove('hidden');
 }
 
